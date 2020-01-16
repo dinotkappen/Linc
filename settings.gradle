@@ -1,0 +1,3 @@
+include ':app', ':library_robotocalendar'
+rootProject.name='LINC'
+project(':library_robotocalendar').projectDir = new File('library')

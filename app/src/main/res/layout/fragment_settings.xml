@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.NoticreBoardDetailsFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="18dp"
+        android:orientation="vertical">
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:cardCornerRadius="12dp">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="14dp"
+                           android:orientation="vertical">
+
+<!--                           <LinearLayout-->
+<!--                               android:layout_width="match_parent"-->
+<!--                               android:layout_height="wrap_content"-->
+<!--                               android:layout_gravity="center"-->
+<!--                               android:layout_marginTop="6dp"-->
+<!--                               android:orientation="horizontal">-->
+<!--                               <TextView-->
+<!--                                   android:layout_width="match_parent"-->
+<!--                                   android:layout_height="wrap_content"-->
+<!--                                   android:layout_weight="0.1"-->
+<!--                                   android:padding="10dp"-->
+<!--                                   android:layout_gravity="center"-->
+<!--                                   android:textColor="@color/colorBlack"-->
+<!--                                   android:text="@string/notifications"/>-->
+<!--                               <Switch-->
+<!--                                   android:id="@+id/notificationSwitch"-->
+<!--                                   android:layout_width="wrap_content"-->
+<!--                                   android:layout_height="wrap_content"-->
+<!--                                   android:layout_gravity="center"-->
+<!--                                   android:gravity="center"-->
+<!--                                   android:checked="true"-->
+<!--                                   android:theme="@style/SCBSwitch" />-->
+<!--                           </LinearLayout>-->
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:layout_marginTop="6dp"
+                               android:background="@color/colorWhiteTrans"/>
+
+                           <LinearLayout
+                               android:id="@+id/linearChangePwd"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               android:layout_marginTop="6dp"
+                               android:orientation="horizontal">
+                               <TextView
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="0.1"
+                                   android:padding="10dp"
+                                   android:layout_gravity="center"
+                                   android:textColor="@color/colorBlack"
+                                   android:text="@string/change_password"/>
+                               <ImageView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_gravity="center"
+                                   android:src="@drawable/ic_arrow_orange"/>
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:layout_marginTop="6dp"
+                               android:background="@color/colorWhiteTrans"/>
+
+<!--                           <LinearLayout-->
+<!--                               android:id="@+id/linearProfile"-->
+<!--                               android:layout_width="match_parent"-->
+<!--                               android:layout_height="wrap_content"-->
+<!--                               android:layout_gravity="center"-->
+<!--                               android:layout_marginTop="6dp"-->
+<!--                               android:orientation="horizontal">-->
+<!--                               <TextView-->
+<!--                                   android:layout_width="match_parent"-->
+<!--                                   android:layout_height="wrap_content"-->
+<!--                                   android:layout_weight="0.1"-->
+<!--                                   android:padding="10dp"-->
+<!--                                   android:layout_gravity="center"-->
+<!--                                   android:textColor="@color/colorBlack"-->
+<!--                                   android:text="@string/profile"/>-->
+<!--                               <ImageView-->
+<!--                                   android:layout_width="wrap_content"-->
+<!--                                   android:layout_height="wrap_content"-->
+<!--                                   android:layout_gravity="center"-->
+<!--                                   android:src="@drawable/ic_arrow_orange"/>-->
+<!--                           </LinearLayout>-->
+
+<!--                           <LinearLayout-->
+<!--                               android:layout_width="match_parent"-->
+<!--                               android:layout_height="1dp"-->
+<!--                               android:layout_marginTop="6dp"-->
+<!--                               android:background="@color/colorWhiteTrans"/>-->
+
+                       </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/navigation_home_side"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="@string/update_profile" />
+
+        <item
+            android:id="@+id/nav_Notice_Board"
+            android:icon="@drawable/notepad"
+            android:title="@string/notice_board" />
+
+        <item
+            android:id="@+id/nav_school_calendar"
+            android:icon="@drawable/calendar"
+            android:title="@string/school_calendar" />
+        <item
+            android:id="@+id/nav_School_Information"
+            android:icon="@drawable/school"
+            android:title="@string/school_information" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+        <item
+            android:orderInCategory="1"
+            android:id="@+id/nav_Privacy"
+            android:icon="@drawable/document"
+            android:title="@string/privacy_statement" />
+        <item
+            android:orderInCategory="1"
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/star"
+            android:title="@string/rate_us_amp_feedback" />
+
+    </group>
+
+
+
+
+</menu>

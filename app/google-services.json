@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "433767655698",
+    "firebase_url": "https://linc-e4b43.firebaseio.com",
+    "project_id": "linc-e4b43",
+    "storage_bucket": "linc-e4b43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433767655698:android:072305b388b03f63b56bcb",
+        "android_client_info": {
+          "package_name": "com.app.linc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433767655698-hqv2k11g37nfultsogtep1boadteg2g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.linc",
+            "certificate_hash": "eb60c02060d91f4f1d89d6b864883b797333d040"
+          }
+        },
+        {
+          "client_id": "433767655698-cqo1su5u4sc9b9a9opnbjj2kddub40rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUvqhI2hkHItlSRQy3Bj84brhnj_80xy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433767655698-cqo1su5u4sc9b9a9opnbjj2kddub40rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
